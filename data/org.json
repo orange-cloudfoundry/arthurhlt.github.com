@@ -1,12 +1,7 @@
 [
   {
-    "userName": "HomeHabbit",
-    "name": "ArthurHlt's repos",
-    "desc": "Org which contains Arthur's repositories"
-  },
-  {
-    "userName": "sphring",
-    "name": "Sphring project",
-    "desc": "Org which contains sphring project"
+    "userName": "Orange-OpenSource",
+    "name": "Orange",
+    "desc": "Open Source by Orange"
   }
 ]
