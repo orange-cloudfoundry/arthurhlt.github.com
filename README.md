@@ -1,7 +1,7 @@
-[Adobe Open Source](http://adobe.github.com)
+[Orange Open Source](http://adobe.github.com)
 =======================
 
-Presenting [Adobe Github Homepage v2.0](http://adobe.github.com), the new central hub for **Adobe Open sources** projects.
+Presenting [Orange Github Homepage v2.0](http://orange-opensource.github.com), the new central hub for **Orange Open sources** projects.
 
 Allowing you to **search through Adobe Github repositories**, you can focus on what you are really passionate about.
 
@@ -10,26 +10,7 @@ Allowing you to **search through Adobe Github repositories**, you can focus on w
 - You are a *web designer* and want the perfect code editor? Search *brackets* and get all the repositories related to this awesome project!
 - You are a *researcher*? Check out the project pushed in Open Source by the *Adobe Research* organization!
 
-<h4 align="center"> Adobe + Open Source = ♥ </h4>
-
-That's why we built this project on top of cutting-edge technologies like:
-
-- [AngularJS](http://angularjs.org/),
-- [Foundation](http://foundation.zurb.com/),
-- [Github Pages](http://pages.github.com/) and [API](http://developer.github.com/v3/),
-- [NodeJS](http://nodejs.org)
-- [D3](http://d3js.org/)
-- and many more!
-
-The [Adobe Creative Cloud](http://www.adobe.com/products/creativecloud.html) was also a great asset for [designing](http://photoshop.com) and [coding](http://brackets.io) purposes.
-
-## Be in touch!
-
-We hope you love this new homepage. Any feedback, ideas or bugfixes are very welcome. Here is the [Trello board](https://trello.com/b/eLlfvaVe/adobe-github-com) on which you can add you ideas. You can also check out the [wiki page](https://github.com/adobe/adobe.github.com/wiki) to know how to update the page easily. 
-
-All this seems interesting to you? You want to contribute to the web with Adobe?
-
-<h4 align="center"><a href="http://www.adobe.com/careers.html" target="_blank">Join the team!</a></h4>
+It was made with the help of adobe, see the original project from: https://github.com/adobe/adobe.github.com
 
 ## Architecture
 
@@ -40,3 +21,17 @@ Hummm... you want to learn more about how all this is structured? A good sketch 
 The information is pulled directly from the [Github API](http://developer.github.com/v3/) and aggregated by a [NodeJS](http://nodejs.org) server (its code source is available [in this repository](https://github.com/kimchouard/server.adobe.github.com)). It is available through an simple REST API, thanks to [restify](http://mcavage.me/node-restify/).
 
 [AngularJS](http://angularjs.org/) then makes a unique API call to the server and inject the data on your browser, based on the [Foundation](http://foundation.zurb.com/) CSS framework and using [dc.js](http://nickqizhu.github.io/dc.js/) for the graphs. The filtering engine for the repositories was built on top of Angular.
+
+## For Orange employee
+
+### Add a new org to the list
+
+Edit the file [data/org.json](/data/org.json) inside this project.
+
+### Add new featured project and org to see it in carousels
+
+Edit the file [data/featured.json](/data/featured.json) inside this project.
+
+### Change the backend target
+
+Edit the line 18 in the file [js/script.js](js/script.js#L18) inside this project.
