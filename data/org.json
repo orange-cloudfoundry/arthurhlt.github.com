@@ -3,5 +3,10 @@
     "userName": "Orange-OpenSource",
     "name": "Orange",
     "desc": "Open Source by Orange"
+  },
+  {
+    "userName": "cloudwatt",
+    "name": "Cloudwatt",
+    "desc": "CloudWatt is an infrastructure as a service made by Orange."
   }
 ]
