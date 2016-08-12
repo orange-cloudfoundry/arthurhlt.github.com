@@ -1,4 +1,4 @@
-[Orange Open Source](http://adobe.github.com)
+[Orange Open Source](http://orange-opensource.github.com)
 =======================
 
 Presenting [Orange Github Homepage v2.0](http://orange-opensource.github.com), the new central hub for **Orange Open sources** projects.
@@ -46,4 +46,5 @@ You can change [index.html](index.html) for the text.
 You can change css file in [stylesheets](/stylesheets) folder but it is recommended to change [sass](http://sass-lang.com/) files inside [stylesheets/sass](/stylesheets/sass) and after compile them with compass.
 
 To install compass, you will need [rubygem](https://rubygems.org/pages/download) and after install it with this command line: `gem install compass zurb-foundation`.
+
 A [config.rb](/config.rb) is already created in this project for compass, so in command line at the root folder of this project you can compile sass file with `compass compile`.
