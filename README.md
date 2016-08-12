@@ -28,10 +28,22 @@ The information is pulled directly from the [Github API](http://developer.github
 
 Edit the file [data/org.json](/data/org.json) inside this project.
 
-### Add new featured project and org to see it in carousels
+### Add new featured project and org to see it in carousels (mainly to highlight projects and orgs)
 
 Edit the file [data/featured.json](/data/featured.json) inside this project.
 
 ### Change the backend target
 
 Edit the line 18 in the file [js/script.js](js/script.js#L18) inside this project.
+
+### Change the style
+
+#### Change the text
+You can change [index.html](index.html) for the text.
+
+#### Change stylesheets
+
+You can change css file in [stylesheets](/stylesheets) folder but it is recommended to change [sass](http://sass-lang.com/) files inside [stylesheets/sass](/stylesheets/sass) and after compile them with compass.
+
+To install compass, you will need [rubygem](https://rubygems.org/pages/download) and after install it with this command line: `gem install compass zurb-foundation`.
+A [config.rb](/config.rb) is already created in this project for compass, so in command line at the root folder of this project you can compile sass file with `compass compile`.
