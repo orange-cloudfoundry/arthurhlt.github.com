@@ -14,7 +14,7 @@
     "orgs": [
       {
         "title": "Orange - Cloud Foundry",
-        "logo": "https://pbs.twimg.com/profile_images/661209399332065280/Gk4XlsB7.png",
+        "logo": "img/cf_inline.png",
         "textHeader": [
           "<h3>Orange - Cloud Foundry</h3>",
           "<p class='details'>Orange contributions to the Cloud Foundry community.<br/>",
