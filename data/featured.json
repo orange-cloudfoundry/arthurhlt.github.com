@@ -13,24 +13,6 @@
     ],
     "orgs": [
       {
-        "title": "Orange OpenSource",
-        "logo": "img/logo.png",
-        "textHeader": [
-          "<h3>Orange OpenSource</h3>",
-          "<p class='details'>Open Source by Orange.<br/>",
-          "<a href='http://opensource.orange.com' target='_blank'>Learn more...</a>"
-        ]
-      },
-      {
-        "title": "Cloudwatt",
-        "logo": "img/cloudwatt.jpg",
-        "textHeader": [
-          "<h3>Cloudwatt</h3>",
-          "<p class='details'>An infrastructure as a service made by Orange.<br/>",
-          "<a href='https://www.cloudwatt.com/' target='_blank'>Learn more...</a>"
-        ]
-      },
-      {
         "title": "Orange - Cloud Foundry",
         "logo": "https://pbs.twimg.com/profile_images/661209399332065280/Gk4XlsB7.png",
         "textHeader": [
