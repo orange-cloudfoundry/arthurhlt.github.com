@@ -15,7 +15,7 @@ if (/MSIE [5-9]/.test(navigator.userAgent)) {
 
 //Get Adobe Github repos & orgs
     app.factory("DatasAdobe", function ($resource) {
-        return $resource("http://org-retriever-orange.cw-lz-apps.elpaaso.net");
+        return $resource("http://org-retriever-orange-cf.cw-lz-apps.elpaaso.net");
     });
 
 //Offline backup of json
