@@ -29,6 +29,15 @@
           "<p class='details'>An infrastructure as a service made by Orange.<br/>",
           "<a href='https://www.cloudwatt.com/' target='_blank'>Learn more...</a>"
         ]
+      },
+      {
+        "title": "Orange - Cloud Foundry",
+        "logo": "https://pbs.twimg.com/profile_images/661209399332065280/Gk4XlsB7.png",
+        "textHeader": [
+          "<h3>Orange - Cloud Foundry</h3>",
+          "<p class='details'>Orange contributions to the Cloud Foundry community.<br/>",
+          "<a href='https://github.com/orange-cloudfoundry/' target='_blank'>Learn more...</a>"
+        ]
       }
     ]
   }
